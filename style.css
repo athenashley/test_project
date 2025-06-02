@@ -1,0 +1,160 @@
+ body {
+            background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .register-form {
+            background: rgba(0, 0, 0, 0.65);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.7);
+        }
+
+        .hotel-name {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            color: white;
+            text-shadow: 1px 1px 6px black;
+            z-index: 10;
+        }
+
+        .titlepage {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .err {
+            display: block;
+            height: 10px;
+            font-size: 13px;
+            color: #ff6b6b;
+            margin-top: 5px;
+        }
+
+        label {
+            color: #ddd;
+        }
+
+        .login-link p {
+            color: #ccc;
+        }
+
+        .login-link a {
+            color: #a5d8ff;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+        .botside {
+        position: fixed;
+        bottom: 15px;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        padding: 5px 0;
+        user-select: none;
+        }
+    body {
+        background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .register-form {
+        background: rgba(0, 0, 0, 0.65);
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 400px;
+        width: 100%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.7);
+        backdrop-filter: blur(3px);
+      }
+
+      .hotel-name {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+        z-index: 10;
+      }
+
+      .titlepage {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+
+      .err {
+        display: block;
+        font-size: 13px;
+        color: #ff6b6b;
+        margin-top: 5px;
+      }
+
+      label {
+        color: #ddd;
+      }
+
+      .login-link p, .login-link a {
+        color: #ccc;
+        text-align: center;
+      }
+
+      .login-link a:hover {
+        text-decoration: underline;
+        color: #a5d8ff;
+      }
+
+      .btn-custom {
+        background-color: #7b5c38;
+        color: white;
+      }
+
+      .botside {
+      position: fixed;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 500;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      padding: 5px 0;
+      user-select: none;
+      }    
