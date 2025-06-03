@@ -1,0 +1,89 @@
+    :root {
+       --bs-primary: #7b5c38;
+      --bs-primary-rgb: 123, 92, 56;
+      --bs-secondary: #c8b6a6;
+      --bs-light-brown: #f9f5f0;
+      --bs-dark-brown: #5a4a3a;
+    }
+    .hero {
+      height: 80vh;
+      min-height: 600px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: slideshow 20s infinite ease-in-out;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+        .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      margin-bottom: 1rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }   
+    .hero p {
+      font-size: 1.5rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 2s ease-in-out;
+    }     
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideshow {
+      0% { background-image: url('pics/2.jpg'); }
+      25% { background-image: url('pics/1.jpg'); }
+      50% { background-image: url('pics/3.jpg'); }
+      75% { background-image: url('pics/5.webp'); }
+      100% { background-image: url('pics/7.webp'); }
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      height: 100%; width: 100%;
+      background: rgba(0, 0, 0, 0.4); 
+      z-index: -1;
+    }
+    .room-card {
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: end;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .room-card:hover {
+      transform: scale(1.02);
+    }
+    .room-card .card-body {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1.25rem;
+    }
+    footer {
+      background-color: #7b5c38;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+    }
+        footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 10px;
+        background: linear-gradient(to right, #c8b6a6, #7b5c38, #c8b6a6);
+    }
